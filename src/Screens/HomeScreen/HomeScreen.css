@@ -212,5 +212,11 @@
 
 }
 
-
+@media screen and (max-height: 500px) {
+    .fondo {
+   
+        background-image: url(/images/fondohome1.jpg);
+        background-repeat: repeat-x;
+    }
+}
 
