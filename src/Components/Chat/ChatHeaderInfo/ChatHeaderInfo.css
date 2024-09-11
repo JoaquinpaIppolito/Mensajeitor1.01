@@ -1,0 +1,105 @@
+.headercontenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    padding-left: 10px;
+}
+
+
+.left {
+    display: flex;
+    text-decoration: none;
+
+}
+
+.fotoperfilchatheader {
+    width: 45px;
+    height: 45px;
+    border-radius: 150px;
+    border: 1px solid #ded7d7;
+}
+
+.nombreyestado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.nombre {
+    display: flex;
+    align-items: flex-start;
+    font-size: 18px;
+    font-style: normal;
+    padding-right: 20px;
+    color: #111B21;
+}
+
+.contactoestado {
+    display: flex;
+    font-size: 12px;
+    align-items: flex-start
+}
+
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+    width: 150px;
+    margin-left: auto;
+}
+
+
+.camara {
+    font-size: 18px;
+    color: #A2ACB2;
+    padding-top: 3px;
+}
+
+
+
+.lupa {
+    color: #54656F;
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+.infoscreenicon {
+    color: #54656F;
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .nombre {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 550px) {
+   
+    
+   
+
+    .fotoperfilchatheader {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contactoestado {
+        font-size: 10px;
+        padding-right: 0px;
+    }
+
+    .headercontenido {
+        width: calc(100vw - 60px);
+    }
+}
